@@ -1,0 +1,36 @@
+/* ===================== CHART VISUALIZATION STYLING ===================== */
+/* Styles for interactive price charts and volatility visualization */
+
+/* ===================== CHART CONTAINERS ===================== */  
+/* Main container for interactive price charts */   
+
+.graphContainer {  
+    display: none;                   /* Hidden by default */  
+    justify-content: space-between;  /* Space between company charts */  
+    align-items: flex-start;         /* Top-aligned charts */  
+    width: 100%;                     /* Full width */  
+    max-width: 1800px;               /* Maximum content width */  
+    margin: 20px auto;               /* Centered with vertical spacing */  
+    padding: 0 20px;                 /* Horizontal padding */  
+}  
+
+/* ===================== INDIVIDUAL CHART WRAPPERS ===================== */  
+/* Styling for each company's chart box */  
+.graph-wrapper {  
+    background: white;               /* Pure white background */  
+    padding: 1.5rem;                   /* Internal spacing */  
+    border-radius: 8px;                /* Matches equation containers */  
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);  /* Subtle depth effect */  
+}  
+
+/* ===================== PLOTLY CHART OVERRIDES ===================== */  
+/* Custom styling for Plotly.js chart elements */  
+.js-plotly-plot .plot-container {  
+    border-radius: 8px;              /* Rounded chart corners */  
+}  
+
+/* ===================== ACTIVE CHART STATE ===================== */  
+/* Visible state when charts are rendered */  
+.graphContainer.active {  
+    display: flex;                   /* Flex layout for side-by-side charts */  
+}  

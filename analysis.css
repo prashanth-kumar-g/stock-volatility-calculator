@@ -1,0 +1,60 @@
+/* ===================== ANALYSIS REPORT STYLING ===================== */
+/* Styles for the comparative risk analysis report */
+
+/* ===================== REPORT SECTION ===================== */  
+/* Main container for report section analysis */  
+.report-section {
+    background: white;                 /* Clean white background */
+    border-radius: 8px;                  /* Rounded corners */
+    box-shadow: 0 2px 15px rgba(0,0,0,0.05);  /* Subtle depth effect */
+    padding: 2rem;                       /* Internal spacing */
+    margin: 2rem auto;                   /* Centered container */
+    max-width: 1200px;                   /* Maximum readable width */
+}
+
+/* ===================== COMPARISON GRID LAYOUT ===================== */
+/* Responsive grid for company comparisons */
+.company-comparison {
+    display: grid;                     /* CSS Grid layout */
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));  /* Responsive columns */
+    gap: 2rem;                         /* Spacing between company boxes */
+    margin-top: 1.5rem;                /* Top spacing */
+}
+
+/* ===================== INDIVIDUAL COMPANY ANALYSIS ===================== */
+/* Styling for each company's analysis block */
+.company-analysis {
+    background: #fff;                 /* Pure white background */
+    padding: 1.5rem;                    /* Internal padding */
+    border-radius: 8px;                 /* Matches report-section radius */
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);  /* Subtle individual shadow */
+    border-left: 4px solid #1b4f72;   /* Accent border matching header */
+}
+
+/* Company name header styling */
+.company-analysis h4 {
+    color: #1b4f72;                    /* Matches navigation bar color */
+    margin: 0 0 1rem 0;                  /* Bottom spacing */
+    font-size: 1.25rem;                  /* Readable title size */
+    padding-bottom: 0.5rem;              /* Space below title */
+    border-bottom: 2px solid #e9ecef;  /* Separator line */
+}
+
+/* ===================== ANALYSIS LIST ITEMS ===================== */
+/* Styling for metric list items */
+.analysis-list li {
+    margin-bottom: 0.75rem;              /* Vertical spacing between items */
+    padding: 0.5rem 0;                   /* Internal item spacing */
+    border-bottom: 1px solid #f1f3f5;  /* Subtle item separator */
+}
+
+/* ===================== CONCLUSION HIGHLIGHT ===================== */
+/* Special styling for final conclusion item */
+.conclusion-item {
+    background: #f8f9fa;              /* Light background for emphasis */
+    padding: 1rem;                      /* Increased spacing */
+    border-radius: 6px;                 /* Rounded corners */
+    margin-top: 1rem;                   /* Top separation */
+    color: #1b4f72;                   /* Brand color consistency */
+    font-weight: 600;                   /* Bold emphasis */
+}

@@ -1,0 +1,68 @@
+/* ===================== CALCULATION RESULTS STYLING ===================== */
+/* Styles for statistical tables and mathematical equations */
+
+/* ===================== STATISTICAL RESULTS SECTION ===================== */
+/* Container for deviation/sum tables (Company 1 & 2) */
+
+#statsContainer {
+    display: flex;               /* Side-by-side table layout */
+    gap: 2rem;                   /* Spacing between company tables */
+    justify-content: center;     /* Horizontal centering */
+    margin: 2rem 0;              /* Vertical spacing */
+    flex-wrap: wrap;             /* Responsive mobile layout */
+}
+
+/* Individual result table styling */
+#statsContainer table {
+    width: 45%;                  /* Dual-column width */
+    min-width: 400px;            /* Minimum readable width */
+    margin: 0;                   /* Remove default spacing */
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);  /* Subtle depth effect */
+    border-radius: 8px;          /* Matches equation containers */
+    overflow: hidden;            /* Contains border radius */
+}
+
+/* ===================== MATHEMATICAL EQUATIONS SECTION ===================== */
+/* Container for formula displays (Mean, SD, CV) */
+
+.equationContainer {
+    display: none;               /* Hidden by default */
+    justify-content: space-between;  /* Space between equations */
+    width: 90%;                  /* Responsive width */
+    margin: 2rem auto;           /* Centered container */
+    gap: 1rem;                   /* Gap between equations */
+}
+
+/* Visible state when calculations complete */
+.equationContainer.visible {
+    display: flex;               /* Show equations */
+}
+
+/* ===================== INDIVIDUAL EQUATION CONTAINERS ===================== */
+/* Styling for each company's formula box */
+.equation-wrapper {
+    width: 45%;                  /* Allows two-column layout (45% of parent width) */
+    display: flex;               /* Flex container for equation alignment */
+    justify-content: center;     /* Horizontal centering */
+    align-items: center;         /* Vertical centering */
+    padding: 1.5rem;             /* Internal spacing */
+    background: #f7fafc;       /* Light background for readability */
+    border-radius: 8px;          /* Rounded corners */
+    border: 1px solid #e2e8f0; /* Subtle border */
+    margin: 0 auto;              /* Center alignment */
+}
+
+/* ===================== EQUATION DISPLAY OVERRIDES ===================== */
+/* MathJax formula container adjustments */
+#company1Equation, #company2Equation {
+    width: 100%;             /* Full container width */
+    text-align: center;      /* Centered equations */
+}
+
+/* MathJax rendering optimizations */
+.MathJax_Display {
+    margin: 0 auto !important;        /* Center alignment */
+    padding: 10px 0 !important;       /* Vertical spacing */
+    display: block !important;        /* Block-level rendering */
+    width: fit-content !important;    /* Natural equation width */
+}

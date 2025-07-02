@@ -1,0 +1,101 @@
+/* ===================== INPUT TABLE STYLING ===================== */
+/* Styles for dynamic price input tables and related components */
+
+/* ===================== GLOBAL STYLES ===================== */
+/* Resets and base styling for consistent cross-browser rendering */
+* {
+    box-sizing: border-box;  /* Includes padding/borders in element dimensions */
+    margin: 0;               /* Removes default margins */
+    padding: 0;              /* Removes default paddings */
+}
+
+/* ===================== MAIN BODY STYLING ===================== */
+/* Sets base typography and page background */
+body {
+    font-family: 'Segoe UI', system-ui, sans-serif;   /* Modern font stack */
+    background: #f8f9fa;                            /* Fallback background */
+    line-height: 1.6;              /* Improved readability */
+    padding-top: 0;                /* No top padding */
+    margin: 20px;                  /* Page margin */
+    background-color: #f0f4f8;      /* Primary background color */
+    color: #2d3748;                 /* Primary text color */
+}
+
+/* ===================== NAVIGATION HEADER ===================== */
+/* Styles for the fixed header at top */
+nav {
+    background: #1b4f72;         /* Dark blue header background */
+    padding: 1.5rem;               /* Vertical padding */
+    position: relative;            /* Positioning context */
+    width: 100%;                   /* Full width */
+    z-index: 1000;                 /* Ensures header stays on top */
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);  /* Subtle drop shadow */
+    transition: none;              /* Disables animations */
+}
+
+/* Header title text styling */
+nav h1 {
+    color: #fff;                 /* White text */
+    font-size: 1.8rem;             /* Responsive font size */
+    text-align: center;            /* Center alignment */
+    font-weight: 600;              /* Semi-bold weight */
+}
+
+/* ===================== FORM ELEMENTS ===================== */
+/* Label styling for input fields */
+label {
+    display: inline-block;         /* Allows width setting */
+    width: 180px;                  /* Fixed label width */
+    margin: 15px;                  /* Spacing around labels */
+    font-weight: 500;              /* Medium font weight */
+    color: #495057;              /* Dark gray color */
+}
+
+/* Unified styling for text/number inputs and dropdowns */
+input[type="text"],
+input[type="number"],
+select {
+    padding: 0.75rem;              /* Comfortable padding */
+    border: 2px solid #e9ecef;   /* Light gray border */
+    border-radius: 6px;            /* Rounded corners */
+    width: 250px;                  /* Consistent width */
+    margin: 10px;                  /* Spacing between elements */
+    font-size: 1rem;               /* Readable font size */
+    display: inline-block;         /* Proper alignment */
+}
+
+/* Primary button styling */
+button {
+    padding: 0.75rem 1.5rem;       /* Vertical/horizontal padding */
+    margin: 15px;                  /* Button spacing */
+    background: #1b4f72;         /* Matches header color */
+    color: white;                /* White text */
+    border: none;                  /* Removes default border */
+    border-radius: 6px;            /* Rounded corners */
+    cursor: pointer;               /* Pointer on hover */
+    font-weight: 600;              /* Bold text */
+    transition: all 0.3s ease;     /* Smooth hover effects */
+}
+
+/* ===================== DATA TABLE STYLING ===================== */
+/* Main table container */
+table {
+    width: 90%;                    /* Responsive width */
+    margin: 30px auto;             /* Centered with vertical spacing */
+    border-collapse: collapse;     /* Unified borders */
+    background: white;           /* White background */
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);  /* Subtle shadow */
+}
+
+/* Table cell styling */
+th, td {
+    padding: 1rem;                  /* Cell padding */
+    text-align: center;             /* Center-aligned content */
+    border: 1px solid #dee2e6;    /* Light gray borders */
+}
+
+/* Table header specific styling */
+th {
+    background: #1b4f72;           /* Matches header color */
+    color: white;                  /* White text */
+}
