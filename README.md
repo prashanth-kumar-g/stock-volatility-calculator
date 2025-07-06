@@ -94,10 +94,10 @@ Below are complete interface screenshots from the Stock Volatility Calculator we
    git clone https://github.com/prashanth-kumar-g/stock-volatility-calculator.git
    cd stock-volatility-calculator
    
-2. **Open Locally**
-   Simply double‑click the index.html file in your file explorer Or serve via a local HTTP server
-
-4. **Or Visit the Live Website**
+2. **Open Locally**  
+   Simply double‑click the index.html file in your file explorer Or serve via a local HTTP server.
+   
+3. **Or Visit the Live Website**  
    Visit the GitHub Pages site:
    https://prashanth-kumar-g.github.io/stock-volatility-calculator/
 
