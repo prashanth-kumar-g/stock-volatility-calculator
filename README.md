@@ -36,7 +36,7 @@
 
 ---
 
-🛠 Tech Stack
+## 🛠 Tech Stack
 
 - **Language:** HTML, CSS, JavaScript
 - **Math Rendering:** MathJax
