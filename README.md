@@ -70,16 +70,16 @@ Below are complete interface screenshots from the Stock Volatility Calculator we
 
 <table>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/2fa741af-f37c-4daa-ade7-e775c0b19286" width="700"/></td>
+    <td><img src="https://github.com/user-attachments/assets/2fa741af-f37c-4daa-ade7-e775c0b19286" width="800"/></td>
   </tr>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/7648c216-e888-4556-a05b-d95edfdf25ff" width="700"/></td>
+    <td><img src="https://github.com/user-attachments/assets/7648c216-e888-4556-a05b-d95edfdf25ff" width="800"/></td>
   </tr>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/24d65042-d275-4280-a2ca-481e6da3be9f" width="700"/></td>
+    <td><img src="https://github.com/user-attachments/assets/24d65042-d275-4280-a2ca-481e6da3be9f" width="800"/></td>
   </tr>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/5c3dad19-cb93-4dae-ac23-79c63aded70e" width="700"/></td>
+    <td><img src="https://github.com/user-attachments/assets/5c3dad19-cb93-4dae-ac23-79c63aded70e" width="800"/></td>
   </tr>
 </table>
 
